@@ -18,11 +18,26 @@
     "android:logcat": "$ANDROID_HOME/platform-tools/adb logcat *:S ReactNative:V ReactNativeJS:V",
     "android:shake": "$ANDROID_HOME/platform-tools/adb devices | grep '\\t' | awk '{print $1}' | sed 's/\\s//g' | xargs -I {} $ANDROID_HOME/platform-tools/adb -s {} shell input keyevent 82",
     "storybook": "storybook start -p 7007",
-    "lint": "standard --verbose | snazzy",
-    "lintdiff": "git diff --name-only --cached --relative | grep '\\.js$' | xargs standard | snazzy",
-    "fixcode": "standard --fix",
+    "lint:eslint": "eslint --ignore-path .gitignore",
+    "lint:eslint:fix": "eslint --ignore-path .gitignore --fix",
+    "lint:js": "npm run lint:eslint -- . ",
+    "lint:fix": "npm run lint:eslint:fix . ",
+    "lint:staged": "lint-staged",
+    "pretest": "npm run test:clean && npm run lint",
     "git-hook": "npm run lint -s && npm run test -s"
   },
+  "lint-staged": {
+    "*.js": [
+      "prettier --write",
+      "npm run lint:eslint:fix",
+      "git add --force"
+    ],
+    "*.json": [
+      "prettier --write",
+      "git add --force"
+    ]
+  },
+  "pre-commit": "lint:staged",
   "dependencies": {
     "apisauce": "^0.14.2",
     "format-json": "^1.0.3",
@@ -75,8 +90,10 @@
     "ignite-standard": "1.0.0",
     "ignite-vector-icons": "1.1.1",
     "jest": "24.7.1",
+    "lint-staged": "8.1.5",
     "metro-react-native-babel-preset": "0.53.1",
     "mockery": "^2.1.0",
+    "pre-commit": "1.2.2",
     "prettier": "1.17.0",
     "react-devtools-core": "3.4.3",
     "react-dom": "16.3.0",
