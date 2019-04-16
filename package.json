@@ -76,8 +76,7 @@
     "reactotron-react-native": "^2.1.0",
     "reactotron-redux": "^2.1.0",
     "reactotron-redux-saga": "^2.1.0",
-    "snazzy": "8.0.0",
-    "standard": "10.0.2"
+    "snazzy": "8.0.0"
   },
   "jest": {
     "testMatch": [
@@ -99,20 +98,5 @@
     ],
     "preset": "react-native"
   },
-  "config": {},
-  "standard": {
-    "parser": "babel-eslint",
-    "globals": [
-      "describe",
-      "test",
-      "jest",
-      "expect",
-      "fetch",
-      "navigator",
-      "__DEV__",
-      "XMLHttpRequest",
-      "FormData",
-      "React$Element"
-    ]
-  }
+  "config": {}
 }
