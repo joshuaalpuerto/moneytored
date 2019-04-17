@@ -1,25 +1,31 @@
-import React, { Component } from 'react'
+import React, { PureComponent } from 'react'
+import PropTypes from 'prop-types'
 import { View, StatusBar } from 'react-native'
-import ReduxNavigation from '../Navigation/ReduxNavigation'
 import { connect } from 'react-redux'
+import ReduxNavigation from '../Navigation/ReduxNavigation'
 import StartupActions from '../Redux/StartupRedux'
 import ReduxPersist from '../Config/ReduxPersist'
 
 // Styles
 import styles from './Styles/RootContainerStyles'
 
-class RootContainer extends Component {
-  componentDidMount () {
+class RootContainer extends PureComponent {
+  static propTypes = {
+    startup: PropTypes.func
+  }
+
+  componentDidMount() {
+    const { startup } = this.props
     // if redux persist is not active fire startup action
     if (!ReduxPersist.active) {
-      this.props.startup()
+      startup()
     }
   }
 
-  render () {
+  render() {
     return (
       <View style={styles.applicationView}>
-        <StatusBar barStyle='light-content' />
+        <StatusBar barStyle="light-content" />
         <ReduxNavigation />
       </View>
     )
@@ -27,8 +33,11 @@ class RootContainer extends Component {
 }
 
 // wraps dispatch to create nicer functions to call within our component
-const mapDispatchToProps = (dispatch) => ({
+const mapDispatchToProps = dispatch => ({
   startup: () => dispatch(StartupActions.startup())
 })
 
-export default connect(null, mapDispatchToProps)(RootContainer)
+export default connect(
+  null,
+  mapDispatchToProps
+)(RootContainer)

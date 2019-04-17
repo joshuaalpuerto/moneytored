@@ -1,7 +1,7 @@
 import { combineReducers } from 'redux'
 import { persistReducer } from 'redux-persist'
 import configureStore from './CreateStore'
-import rootSaga from '../Sagas/'
+import rootSaga from '../Sagas'
 import ReduxPersist from '../Config/ReduxPersist'
 
 /* ------------- Assemble The Reducers ------------- */
@@ -19,12 +19,17 @@ export default () => {
     finalReducers = persistReducer(persistConfig, reducers)
   }
 
-  let { store, sagasManager, sagaMiddleware } = configureStore(finalReducers, rootSaga)
+  /* eslint-disable  prefer-const */
+  let { store, sagasManager, sagaMiddleware } = configureStore(
+    finalReducers,
+    rootSaga
+  )
 
   if (module.hot) {
     module.hot.accept(() => {
-      const nextRootReducer = require('./').reducers
-      store.replaceReducer(nextRootReducer)
+      /* eslint-disable import/no-self-import */
+      // const nextRootReducer = require('./').reducers
+      store.replaceReducer(reducers)
 
       const newYieldedSagas = require('../Sagas').default
       sagasManager.cancel()

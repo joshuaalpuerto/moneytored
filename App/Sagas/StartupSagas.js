@@ -1,15 +1,15 @@
 import { put, select } from 'redux-saga/effects'
-import GithubActions, { GithubSelectors } from '../Redux/GithubRedux'
 import { is } from 'ramda'
+import GithubActions, { GithubSelectors } from '../Redux/GithubRedux'
 
 // exported to make available for tests
 export const selectAvatar = GithubSelectors.selectAvatar
 
 // process STARTUP actions
-export function * startup (action) {
+export function* startup() {
   if (__DEV__ && console.tron) {
     // straight-up string logging
-    console.tron.log('Hello, I\'m an example of how to log via Reactotron.')
+    console.tron.log("Hello, I'm an example of how to log via Reactotron.")
 
     // logging an object for better clarity
     console.tron.log({
