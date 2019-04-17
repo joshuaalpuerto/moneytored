@@ -5,6 +5,7 @@ const prettierOptions = JSON.parse(fs.readFileSync('./.prettierrc', 'utf8'))
 module.exports = {
   parser: 'babel-eslint',
   env: {
+    browser: true,
     es6: true,
     node: true,
     jest: true
@@ -18,7 +19,8 @@ module.exports = {
   ],
   globals: {
     Atomics: 'readonly',
-    SharedArrayBuffer: 'readonly'
+    SharedArrayBuffer: 'readonly',
+    __DEV__: true
   },
   parserOptions: {
     ecmaFeatures: {
@@ -28,9 +30,9 @@ module.exports = {
     sourceType: 'module'
   },
   plugins: ['react', 'prettier'],
-
   rules: {
     'prettier/prettier': ['error', prettierOptions],
+    'global-require': 0,
     'arrow-body-style': [2, 'as-needed'],
     'class-methods-use-this': 0,
     'comma-dangle': [2, 'never'],
@@ -85,8 +87,6 @@ module.exports = {
     'react/require-extension': 0,
     'react/self-closing-comp': 0,
     'react/sort-comp': 0,
-    'redux-saga/no-yield-in-race': 2,
-    'redux-saga/yield-effects': 2,
     'require-yield': 0,
 
     'no-underscore-dangle': [
