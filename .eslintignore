@@ -1,2 +1,5 @@
-ios
-android
+ios/**
+android/**
+ignite/**
+ignite/Examples/**/*
+ignite/Plugins/**/*
