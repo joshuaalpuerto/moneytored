@@ -2571,7 +2571,7 @@ babel-preset-env@^1.6.1:
     invariant "^2.2.2"
     semver "^5.3.0"
 
-babel-preset-fbjs@^3.0.1, babel-preset-fbjs@^3.2.0:
+babel-preset-fbjs@^3.0.1, babel-preset-fbjs@^3.1.2, babel-preset-fbjs@^3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/babel-preset-fbjs/-/babel-preset-fbjs-3.2.0.tgz#c0e6347d3e0379ed84b3c2434d3467567aa05297"
   integrity sha512-5Jo+JeWiVz2wHUUyAlvb/sSYnXNig9r+HqGAOSfh5Fzxp7SnAaR/tEGRJ1ZX7C77kfk82658w6R5Z+uPATTD9g==
@@ -7988,6 +7988,13 @@ metro-babel-register@^0.48.1:
     core-js "^2.2.2"
     escape-string-regexp "^1.0.5"
 
+metro-babel-transformer@0.53.1:
+  version "0.53.1"
+  resolved "https://registry.yarnpkg.com/metro-babel-transformer/-/metro-babel-transformer-0.53.1.tgz#a076fd77a9a7aef8004706edf537dcd1fec4a79e"
+  integrity sha512-cgZj9KK/SLxsO/rAmrlnZpaBlLhxuWxGrQkkiWxV/OjfbW8nvodozfZ3Euxvh4Ytf0e8qgTFG3JpQf8EGSDp7w==
+  dependencies:
+    "@babel/core" "^7.0.0"
+
 metro-babel7-plugin-react-transform@0.48.5:
   version "0.48.5"
   resolved "https://registry.yarnpkg.com/metro-babel7-plugin-react-transform/-/metro-babel7-plugin-react-transform-0.48.5.tgz#312eb0adf3764357c79b79acc6eb92646051b349"
@@ -8127,6 +8134,16 @@ metro-react-native-babel-preset@0.53.1:
     "@babel/template" "^7.0.0"
     metro-babel7-plugin-react-transform "0.53.1"
     react-transform-hmr "^1.0.4"
+
+metro-react-native-babel-transformer@0.53.1:
+  version "0.53.1"
+  resolved "https://registry.yarnpkg.com/metro-react-native-babel-transformer/-/metro-react-native-babel-transformer-0.53.1.tgz#addf31b3a9b5fc512b9ff6967d923dcfcda56394"
+  integrity sha512-UB64jN/akuTdDmoQlw+yLBifJhQzJr7QPP3cwitwM5XD4d9M+12pZreeFn66oMakTy4pNx4jkaYEJ5rLyh/b0Q==
+  dependencies:
+    "@babel/core" "^7.0.0"
+    babel-preset-fbjs "^3.1.2"
+    metro-babel-transformer "0.53.1"
+    metro-react-native-babel-preset "0.53.1"
 
 metro-resolver@0.48.5:
   version "0.48.5"

@@ -5,6 +5,7 @@
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest",
+    "test:clean": "rimraf ./coverage",
     "clean": "rm -rf $TMPDIR/react-* && watchman watch-del-all && npm cache clean --force",
     "clean:android": "cd android/ && ./gradlew clean && cd .. && react-native run-android",
     "newclear": "rm -rf $TMPDIR/react-* && watchman watch-del-all && rm -rf ios/build && rm -rf node_modules/ && npm cache clean --force && npm i",
@@ -95,6 +96,7 @@
     "jest": "24.7.1",
     "lint-staged": "8.1.5",
     "metro-react-native-babel-preset": "0.53.1",
+    "metro-react-native-babel-transformer": "0.53.1",
     "mockery": "^2.1.0",
     "pre-commit": "1.2.2",
     "prettier": "1.17.0",
@@ -117,16 +119,16 @@
     ],
     "testPathIgnorePatterns": [
       "/node_modules/",
-      "<rootDir>/Tests/Setup.js"
+      "<rootDir>/jest/"
     ],
     "moduleNameMapper": {
       "^.+\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "identity-obj-proxy"
     },
     "transform": {
-      "^.+\\.(js)$": "<rootDir>/node_modules/react-native/jest/preprocessor.js"
+      "^.+\\.(js)$": "<rootDir>/jest/preprocessor.js"
     },
     "setupFiles": [
-      "<rootDir>/Tests/Setup"
+      "<rootDir>/jest/Setup"
     ],
     "preset": "react-native"
   },
