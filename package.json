@@ -18,6 +18,7 @@
     "android:logcat": "$ANDROID_HOME/platform-tools/adb logcat *:S ReactNative:V ReactNativeJS:V",
     "android:shake": "$ANDROID_HOME/platform-tools/adb devices | grep '\\t' | awk '{print $1}' | sed 's/\\s//g' | xargs -I {} $ANDROID_HOME/platform-tools/adb -s {} shell input keyevent 82",
     "storybook": "storybook start -p 7007",
+    "lint": "npm run lint:js && npm run lint:css",
     "lint:eslint": "eslint",
     "lint:eslint:fix": "eslint --fix",
     "lint:js": "npm run lint:eslint -- . ",
