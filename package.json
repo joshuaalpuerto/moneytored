@@ -27,7 +27,8 @@
     "lint:fix": "npm run lint:eslint:fix . && npm run lint:css",
     "lint:staged": "lint-staged",
     "pretest": "npm run test:clean && npm run lint",
-    "git-hook": "npm run lint -s && npm run test -s"
+    "git-hook": "npm run lint -s && npm run test -s",
+    "ac": "appcenter"
   },
   "lint-staged": {
     "*.js": [
@@ -75,6 +76,7 @@
     "@storybook/addons": "^3.4.0",
     "@storybook/channels": "^3.4.0",
     "@storybook/react-native": "^3.4.0",
+    "appcenter-cli": "1.1.15",
     "babel-core": "6.26.0",
     "babel-eslint": "10.0.1",
     "babel-jest": "24.7.1",
