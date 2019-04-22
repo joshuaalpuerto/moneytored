@@ -37,7 +37,7 @@ Make sure you have `nvm`, node `v8 and up`, and `yarn` installed before proceedi
 
 More info you can check the react-native [docs](https://facebook.github.io/react-native/docs/running-on-simulator-ios#specifying-a-device)
 
-### IOS
+#### IOS
 
 ```sh
 $ react-native run-ios --simulator="iPhone 7 Plus"
