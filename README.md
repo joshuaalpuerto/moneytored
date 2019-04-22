@@ -2,6 +2,7 @@
 
 Mobile app codebase of Third Segmentation
 
+[![Build status](https://build.appcenter.ms/v0.1/apps/3a73d10e-6bce-4d18-a03b-41c0cc48f27d/branches/master/badge)](https://appcenter.ms)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 ## Development Environment Setup
