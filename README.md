@@ -2,9 +2,9 @@
 
 Mobile app codebase of Third Segmentation
 
-[![Android Build status](https://build.appcenter.ms/v0.1/apps/63b1c091-cfe9-41e7-a18c-f09c7ba7e9d9/branches/master/badge)](https://appcenter.ms)
-[![IOS Build status](https://build.appcenter.ms/v0.1/apps/ef148ee6-3957-4971-b377-803935b797d5/branches/master/badge)](https://appcenter.ms)
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+| **Android**                                                                                                                                      | **IOS**                                                                                                                                      | **Convention**                                                                                                                                 |
+| ------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| [![Android Build status](https://build.appcenter.ms/v0.1/apps/63b1c091-cfe9-41e7-a18c-f09c7ba7e9d9/branches/master/badge)](https://appcenter.ms) | [![IOS Build status](https://build.appcenter.ms/v0.1/apps/ef148ee6-3957-4971-b377-803935b797d5/branches/master/badge)](https://appcenter.ms) | [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier) |
 
 ## Development Environment Setup
 
