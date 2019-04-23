@@ -60,3 +60,13 @@ buck-out/
 .env
 
 .vscode
+
+# IOS
+## ios/Pods,
+ios/Pods
+## Podfile versions
+ios/Podfile.lock
+## user personal info,for example debug info
+ios/ThreeSegmentApp.xcodeproj/project.xcworkspace
+ios/ThreeSegmentApp.xcodeproj/xcuserdata
+
