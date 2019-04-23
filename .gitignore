@@ -60,8 +60,3 @@ buck-out/
 .env
 
 .vscode
-
-# IOS
-ios/Pods/*
-!ios/Pods/.gitkeep
-ios/Podfile.lock
