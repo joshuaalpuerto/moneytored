@@ -109,11 +109,11 @@ android {
     }
     signingConfigs {
         release {
-            if (project.hasProperty('MYAPP_RELEASE_STORE_FILE')) {
-                storeFile file(MYAPP_RELEASE_STORE_FILE)
-                storePassword MYAPP_RELEASE_STORE_PASSWORD
-                keyAlias MYAPP_RELEASE_KEY_ALIAS
-                keyPassword MYAPP_RELEASE_KEY_PASSWORD
+            if (project.hasProperty('THREEAPP_RELEASE_STORE_FILE')) {
+                storeFile file(THREEAPP_RELEASE_STORE_FILE)
+                storePassword THREEAPP_RELEASE_STORE_PASSWORD
+                keyAlias THREEAPP_RELEASE_KEY_ALIAS
+                keyPassword THREEAPP_RELEASE_KEY_PASSWORD
             }
         }
     }
@@ -129,6 +129,7 @@ android {
         release {
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
+            signingConfig signingConfigs.release
         }
     }
     // applicationVariants are e.g. debug, release
