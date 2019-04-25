@@ -109,12 +109,12 @@ android {
     }
     signingConfigs {
         release {
-            if (project.hasProperty('MYAPP_RELEASE_STORE_FILE')) {
-                storeFile rootProject.file("app/" + project.findProperty('MYAPP_RELEASE_STORE_FILE') ?: "ANDROID_STORE_FILE_NOT_SET")
-                storePassword project.findProperty('MYAPP_RELEASE_STORE_PASSWORD') ?: "ANDROID_STORE_PASSWORD_NOT_SET"
-                keyAlias project.findProperty('MYAPP_RELEASE_KEY_ALIAS') ?: "ANDROID_KEY_ALIAS_NOT_SET"
-                keyPassword project.findProperty('MYAPP_RELEASE_KEY_PASSWORD') ?: "ANDROID_KEY_PASSWORD_NOT_SET"
-            }
+            // if (project.hasProperty('MYAPP_RELEASE_STORE_FILE')) {
+            //     storeFile rootProject.file("app/" + project.findProperty('MYAPP_RELEASE_STORE_FILE') ?: "ANDROID_STORE_FILE_NOT_SET")
+            //     storePassword project.findProperty('MYAPP_RELEASE_STORE_PASSWORD') ?: "ANDROID_STORE_PASSWORD_NOT_SET"
+            //     keyAlias project.findProperty('MYAPP_RELEASE_KEY_ALIAS') ?: "ANDROID_KEY_ALIAS_NOT_SET"
+            //     keyPassword project.findProperty('MYAPP_RELEASE_KEY_PASSWORD') ?: "ANDROID_KEY_PASSWORD_NOT_SET"
+            // }
         }
     }
     splits {
@@ -129,7 +129,7 @@ android {
         release {
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
-            signingConfig signingConfigs.release
+            // signingConfig signingConfigs.release
         }
     }
     // applicationVariants are e.g. debug, release
