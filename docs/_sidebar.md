@@ -11,3 +11,4 @@
   - [Introduction](testing/index.md)
   - [Unit Testing](testing/unit-testing.md)
   - [Component Testing](testing/component-testing.md)
+- [Deployment](deployment/index.md)
