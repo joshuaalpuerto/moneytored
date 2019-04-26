@@ -2,7 +2,7 @@ import 'react-native'
 import React from 'react'
 import { shallow } from 'enzyme'
 import renderer from 'react-test-renderer'
-import DrawerButton from '../../App/Components/DrawerButton'
+import DrawerButton from '../DrawerButton'
 
 test('DrawerButton component renders correctly', () => {
   const tree = renderer

@@ -2,7 +2,7 @@ import 'react-native'
 import React from 'react'
 import { shallow } from 'enzyme'
 import renderer from 'react-test-renderer'
-import FullButton from '../../App/Components/FullButton'
+import FullButton from '../FullButton'
 
 test('FullButton component renders correctly', () => {
   const tree = renderer

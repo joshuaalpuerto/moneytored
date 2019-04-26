@@ -2,7 +2,7 @@ import 'react-native'
 import React from 'react'
 import { shallow } from 'enzyme'
 import renderer from 'react-test-renderer'
-import RoundedButton from '../../App/Components/RoundedButton'
+import RoundedButton from '../RoundedButton'
 
 test('RoundedButton component renders correctly', () => {
   const tree = renderer
