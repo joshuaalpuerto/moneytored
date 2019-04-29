@@ -109,6 +109,11 @@ android {
     }
     signingConfigs {
         release {
+            /**
+             * As per documentation of Appcenter we are already uplading the keystore to appcenter so we dont need the configuration here since we are building on APP store.
+             * If you really want to build on your local you can follow this guide
+             * https://medium.com/@fabrik42/signing-react-native-android-apks-with-keystore-on-microsoft-app-center-b46664f42f3a
+             */
             // if (project.hasProperty('MYAPP_RELEASE_STORE_FILE')) {
             //     storeFile rootProject.file("app/" + project.findProperty('MYAPP_RELEASE_STORE_FILE') ?: "ANDROID_STORE_FILE_NOT_SET")
             //     storePassword project.findProperty('MYAPP_RELEASE_STORE_PASSWORD') ?: "ANDROID_STORE_PASSWORD_NOT_SET"
