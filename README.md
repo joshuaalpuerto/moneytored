@@ -4,7 +4,7 @@ Mobile app codebase for money monitoring.
 
 | **Android**                                                                                                                                      | **IOS**                                                                                                                                      | **Convention**                                                                                                                                 |
 | ------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-|  |  | [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier) |
+| [![Build status](https://build.appcenter.ms/v0.1/apps/5ad92a09-2a11-422b-8bb7-9c69feb18149/branches/master/badge)](https://appcenter.ms) | [![Build status](https://build.appcenter.ms/v0.1/apps/5a5ac76d-a484-47ba-8703-0f60f604aead/branches/master/badge)](https://appcenter.ms) | [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier) |
 
 ## Development Environment Setup
 
