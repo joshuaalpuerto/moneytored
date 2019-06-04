@@ -1,10 +1,10 @@
-# Third Segment App
+# Moneytored
 
-Mobile app codebase of Third Segmentation
+Mobile app codebase for money monitoring.
 
 | **Android**                                                                                                                                      | **IOS**                                                                                                                                      | **Convention**                                                                                                                                 |
 | ------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| [![Android Build status](https://build.appcenter.ms/v0.1/apps/30cfdf6e-cbf9-4454-85d2-9e769667cbac/branches/master/badge)](https://appcenter.ms) | [![IOS Build status](https://build.appcenter.ms/v0.1/apps/26dea7bf-2c2d-4f9e-9766-212b196c42fb/branches/master/badge)](https://appcenter.ms) | [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier) |
+|  |  | [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier) |
 
 ## Development Environment Setup
 
@@ -30,10 +30,9 @@ When adding new packages, always use `yarn add --exact <package>`. To add a pack
 
 Make sure you have `nvm`, node `v8 and up`, and `yarn` installed before proceeding with the following steps. Also, ensure :
 
-1.  Clone repo - `git@github.com:Coapperative/three-app.git`
+1.  Clone repo - `git@github.com:joshuaalpuerto/moneytored.git`
 2.  Create `.env` using `.env-sample` as template.
 3.  Run `yarn` to install dependencies and clean the git repo.
-4.  Link React-Native Dependencies `react-native link`.
 
 ### Running on Simulator
 
@@ -54,7 +53,7 @@ $ react-native run-ios --simulator="iPhone 7 Plus"
 [Here](https://medium.com/@deepak.gulati/running-react-native-app-on-the-android-emulator-11bf309443eb) or [this](https://medium.freecodecamp.org/what-you-need-to-know-to-start-building-mobile-apps-in-react-native-dded951277b7#b49d) even the react-native getting started [guide](https://facebook.github.io/react-native/docs/getting-started) are awesome docs on how you can configure your computer for android development. **You should follow this steps before proceeding.**
 
 1. We need to have a simulator to run our android application. We will be using here is [genymotion](https://www.genymotion.com/). Choose the option with VirtualBox (if you don’t have VirtualBox already installed on your Windows PC).
-2. Adding a New Virtual Device in Genymotion. Ensure to have correct `API` number as you installed your android SDK.
+2. Adding a New Virtual Device in Genymotion. Install the SDK Platform with API Level `27`.
 3. Once done you’ll see your devices listed under Virtual devices.
 4. Once you run the device on genymotion, You can verify through your cli using `adb devices`
 5. Finally you can do `react-native run-android`
