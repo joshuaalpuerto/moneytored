@@ -1,10 +1,10 @@
-# Third Segment App
+# Moneytored
 
-Mobile app codebase of Third Segmentation
+Mobile app codebase for money monitoring.
 
 | **Android**                                                                                                                                      | **IOS**                                                                                                                                      | **Convention**                                                                                                                                 |
 | ------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| [![Android Build status](https://build.appcenter.ms/v0.1/apps/30cfdf6e-cbf9-4454-85d2-9e769667cbac/branches/master/badge)](https://appcenter.ms) | [![IOS Build status](https://build.appcenter.ms/v0.1/apps/26dea7bf-2c2d-4f9e-9766-212b196c42fb/branches/master/badge)](https://appcenter.ms) | [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier) |
+|  |  | [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier) |
 
 ## Development Environment Setup
 
@@ -30,7 +30,7 @@ When adding new packages, always use `yarn add --exact <package>`. To add a pack
 
 Make sure you have `nvm`, node `v8 and up`, and `yarn` installed before proceeding with the following steps. Also, ensure :
 
-1.  Clone repo - `git@github.com:Coapperative/three-app.git`
+1.  Clone repo - `git@github.com:joshuaalpuerto/moneytored.git`
 2.  Create `.env` using `.env-sample` as template.
 3.  Run `yarn` to install dependencies and clean the git repo.
 
