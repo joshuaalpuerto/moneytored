@@ -11,8 +11,8 @@
 		00C302E81ABCBA2D00DB3ED1 /* libRCTImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302C01ABCB91800DB3ED1 /* libRCTImage.a */; };
 		00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */; };
 		00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */; };
-		00E356F31AD99517003FC87E /* ThreeSegmentAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ThreeSegmentAppTests.m */; };
-		0787469F04FAFE364DF5F805 /* libPods-ThreeSegmentApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D101F6894CD84B5C217A3BF /* libPods-ThreeSegmentApp.a */; };
+		00E356F31AD99517003FC87E /* MoneytoredTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MoneytoredTests.m */; };
+		0787469F04FAFE364DF5F805 /* libPods-Moneytored.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D101F6894CD84B5C217A3BF /* libPods-Moneytored.a */; };
 		0B78EBEB7C5D468CB545EE01 /* libRNI18n.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C525F7B9AF6419FA0DB6D06 /* libRNI18n.a */; };
 		0BF250F0B36D4103AE5B1C7F /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA1D6E0B08E042CF834ADFF2 /* Zocial.ttf */; };
 		116CC5028E804E21AD21F904 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C278E95909DB474D80B81AFE /* Foundation.ttf */; };
@@ -45,14 +45,14 @@
 		2D02E4C71E0B4AEC006451C7 /* libRCTText-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3E941DF850E9000B6D8A /* libRCTText-tvOS.a */; };
 		2D02E4C81E0B4AEC006451C7 /* libRCTWebSocket-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3E991DF850E9000B6D8A /* libRCTWebSocket-tvOS.a */; };
 		2D16E6881FA4F8E400B85C8A /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D16E6891FA4F8E400B85C8A /* libReact.a */; };
-		2DCD954D1E0B4F2C00145EB5 /* ThreeSegmentAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ThreeSegmentAppTests.m */; };
+		2DCD954D1E0B4F2C00145EB5 /* MoneytoredTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MoneytoredTests.m */; };
 		2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
-		36688ED0CDA0E9A1450DD51F /* libPods-ThreeSegmentAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 372EF451FD14DF502DEDCDF6 /* libPods-ThreeSegmentAppTests.a */; };
+		36688ED0CDA0E9A1450DD51F /* libPods-MoneytoredTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 372EF451FD14DF502DEDCDF6 /* libPods-MoneytoredTests.a */; };
 		374C721D49F942A4B680CA4E /* libReactNativeConfig.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0149CB6F26C4D46B33D7439 /* libReactNativeConfig.a */; };
 		459DB9E314424B6EB44FD198 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 067AB49545F64CEBA10440AC /* MaterialIcons.ttf */; };
 		512347C5C94248CD9893731B /* libRNDeviceInfo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24C8D9777A364BD695537527 /* libRNDeviceInfo.a */; };
 		539C4AB05C074CB58F4DA3FC /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC1E4759D292426EA94C6805 /* MaterialCommunityIcons.ttf */; };
-		65D3F0C2259CC74AF81A3F61 /* libPods-ThreeSegmentApp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 679573591073F8D9F8958358 /* libPods-ThreeSegmentApp-tvOS.a */; };
+		65D3F0C2259CC74AF81A3F61 /* libPods-Moneytored-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 679573591073F8D9F8958358 /* libPods-Moneytored-tvOS.a */; };
 		6EBFEAD10F374982B699E7B5 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F699728C7CD49ACBD634661 /* FontAwesome5_Regular.ttf */; };
 		712B6D1E324245AF8D8EB355 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A067431590D8425D83369930 /* Ionicons.ttf */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
@@ -66,7 +66,7 @@
 		B85399C2A1D24C0AAEADEAF3 /* libRNI18n-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B84E72EBF74241D28ADFAF85 /* libRNI18n-tvOS.a */; };
 		BF60CE8E269E4C8E8C630F6A /* libAppCenterReactNativeCrashes.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BAC65B6DADF9409186464192 /* libAppCenterReactNativeCrashes.a */; };
 		C279C5FCD402455694F939CE /* libRNVectorIcons-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 757A329F560C4A0F88FAB0B8 /* libRNVectorIcons-tvOS.a */; };
-		CA4F68531BDAC24D81A7ED2A /* libPods-ThreeSegmentApp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 15C8ECF6747F72A5C6C7DF35 /* libPods-ThreeSegmentApp-tvOSTests.a */; };
+		CA4F68531BDAC24D81A7ED2A /* libPods-Moneytored-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 15C8ECF6747F72A5C6C7DF35 /* libPods-Moneytored-tvOSTests.a */; };
 		D5BC28C808724926AF3D964A /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7FD3B065BFA74A119C4A0A8E /* FontAwesome.ttf */; };
 		E709AEAD9CDE48559F98BF59 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1659DF0A9DD44C5FB2F72C57 /* Octicons.ttf */; };
 		FDF3550ED7DF454EB62D54D6 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7F99BFEE4FCA4EFFB01252C0 /* FontAwesome5_Solid.ttf */; };
@@ -113,7 +113,7 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = ThreeSegmentApp;
+			remoteInfo = Moneytored;
 		};
 		139105C01AF99BAD00B5F7CC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -141,7 +141,7 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "ThreeSegmentApp-tvOS";
+			remoteInfo = "Moneytored-tvOS";
 		};
 		2D16E6711FA4F8DC00B85C8A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -432,31 +432,31 @@
 		00C302BB1ABCB91800DB3ED1 /* RCTImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTImage.xcodeproj; path = "../node_modules/react-native/Libraries/Image/RCTImage.xcodeproj"; sourceTree = "<group>"; };
 		00C302D31ABCB9D200DB3ED1 /* RCTNetwork.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTNetwork.xcodeproj; path = "../node_modules/react-native/Libraries/Network/RCTNetwork.xcodeproj"; sourceTree = "<group>"; };
 		00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTVibration.xcodeproj; path = "../node_modules/react-native/Libraries/Vibration/RCTVibration.xcodeproj"; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* ThreeSegmentAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreeSegmentAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* MoneytoredTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneytoredTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* ThreeSegmentAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreeSegmentAppTests.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* MoneytoredTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoneytoredTests.m; sourceTree = "<group>"; };
 		04D7BF01321A4562816EABCA /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
 		067AB49545F64CEBA10440AC /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
-		0D101F6894CD84B5C217A3BF /* libPods-ThreeSegmentApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ThreeSegmentApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D101F6894CD84B5C217A3BF /* libPods-Moneytored.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Moneytored.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* ThreeSegmentApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreeSegmentApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ThreeSegmentApp/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ThreeSegmentApp/AppDelegate.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* Moneytored.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moneytored.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Moneytored/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Moneytored/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ThreeSegmentApp/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ThreeSegmentApp/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ThreeSegmentApp/main.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Moneytored/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Moneytored/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Moneytored/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
-		15C8ECF6747F72A5C6C7DF35 /* libPods-ThreeSegmentApp-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ThreeSegmentApp-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15C8ECF6747F72A5C6C7DF35 /* libPods-Moneytored-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Moneytored-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1622843754CF4D799AEDCF3B /* libRNVectorIcons.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNVectorIcons.a; sourceTree = "<group>"; };
 		1659DF0A9DD44C5FB2F72C57 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
 		2206B7B44E2F417EAF7DD9AD /* AppCenterReactNative.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = AppCenterReactNative.xcodeproj; path = ../node_modules/appcenter/ios/AppCenterReactNative.xcodeproj; sourceTree = "<group>"; };
 		24C8D9777A364BD695537527 /* libRNDeviceInfo.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNDeviceInfo.a; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* ThreeSegmentApp-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ThreeSegmentApp-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* ThreeSegmentApp-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ThreeSegmentApp-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E47B1E0B4A5D006451C7 /* Moneytored-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Moneytored-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* Moneytored-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Moneytored-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		372EF451FD14DF502DEDCDF6 /* libPods-ThreeSegmentAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ThreeSegmentAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		372EF451FD14DF502DEDCDF6 /* libPods-MoneytoredTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MoneytoredTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C525F7B9AF6419FA0DB6D06 /* libRNI18n.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNI18n.a; sourceTree = "<group>"; };
 		3F699728C7CD49ACBD634661 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
 		400E1FB6CD5C4AF3ADEA6169 /* libAppCenterReactNative.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libAppCenterReactNative.a; sourceTree = "<group>"; };
@@ -464,24 +464,24 @@
 		479C52BAC9F445E6887DD903 /* ReactNativeConfig.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = ReactNativeConfig.xcodeproj; path = "../node_modules/react-native-config/ios/ReactNativeConfig.xcodeproj"; sourceTree = "<group>"; };
 		490172E4761F41ABBDD357AE /* libRNGestureHandler.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNGestureHandler.a; sourceTree = "<group>"; };
 		4DFEAB4FC9304BA3905E4507 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
-		5162E8DE7FBE6FFAEB234E83 /* Pods-ThreeSegmentApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThreeSegmentApp.release.xcconfig"; path = "Target Support Files/Pods-ThreeSegmentApp/Pods-ThreeSegmentApp.release.xcconfig"; sourceTree = "<group>"; };
+		5162E8DE7FBE6FFAEB234E83 /* Pods-Moneytored.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moneytored.release.xcconfig"; path = "Target Support Files/Pods-Moneytored/Pods-Moneytored.release.xcconfig"; sourceTree = "<group>"; };
 		53FA8D4D8AB5454099E3489D /* AppCenterReactNativeAnalytics.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = AppCenterReactNativeAnalytics.xcodeproj; path = "../node_modules/appcenter-analytics/ios/AppCenterReactNativeAnalytics.xcodeproj"; sourceTree = "<group>"; };
 		5E747A94E17546BD9CF296FF /* RNGestureHandler.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNGestureHandler.xcodeproj; path = "../node_modules/react-native-gesture-handler/ios/RNGestureHandler.xcodeproj"; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		62D2011D82674D0192C64A01 /* AppCenterReactNativeCrashes.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = AppCenterReactNativeCrashes.xcodeproj; path = "../node_modules/appcenter-crashes/ios/AppCenterReactNativeCrashes.xcodeproj"; sourceTree = "<group>"; };
-		679573591073F8D9F8958358 /* libPods-ThreeSegmentApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ThreeSegmentApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		679573591073F8D9F8958358 /* libPods-Moneytored-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Moneytored-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C9739EFB9EB4288B8E6305E /* libRNDeviceInfo-tvOS.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = "libRNDeviceInfo-tvOS.a"; sourceTree = "<group>"; };
-		6CFAD17422015283F8AC4C79 /* Pods-ThreeSegmentApp-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThreeSegmentApp-tvOS.release.xcconfig"; path = "Target Support Files/Pods-ThreeSegmentApp-tvOS/Pods-ThreeSegmentApp-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		6CFAD17422015283F8AC4C79 /* Pods-Moneytored-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moneytored-tvOS.release.xcconfig"; path = "Target Support Files/Pods-Moneytored-tvOS/Pods-Moneytored-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		72A0140DFC9B4E34895CC936 /* RNVectorIcons.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNVectorIcons.xcodeproj; path = "../node_modules/react-native-vector-icons/RNVectorIcons.xcodeproj"; sourceTree = "<group>"; };
 		757A329F560C4A0F88FAB0B8 /* libRNVectorIcons-tvOS.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = "libRNVectorIcons-tvOS.a"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		7AFAED0C514042B09D4AECF9 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
-		7E69AE7EC2CBEA9CD915145C /* Pods-ThreeSegmentApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThreeSegmentApp.debug.xcconfig"; path = "Target Support Files/Pods-ThreeSegmentApp/Pods-ThreeSegmentApp.debug.xcconfig"; sourceTree = "<group>"; };
+		7E69AE7EC2CBEA9CD915145C /* Pods-Moneytored.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moneytored.debug.xcconfig"; path = "Target Support Files/Pods-Moneytored/Pods-Moneytored.debug.xcconfig"; sourceTree = "<group>"; };
 		7F99BFEE4FCA4EFFB01252C0 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
 		7FD3B065BFA74A119C4A0A8E /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		A067431590D8425D83369930 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
-		A0EAA22ADC2F2FD8B26C1D6F /* Pods-ThreeSegmentApp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThreeSegmentApp-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-ThreeSegmentApp-tvOSTests/Pods-ThreeSegmentApp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A0EAA22ADC2F2FD8B26C1D6F /* Pods-Moneytored-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moneytored-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Moneytored-tvOSTests/Pods-Moneytored-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AB633A11B1FC440E907991AE /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -490,17 +490,17 @@
 		BAC65B6DADF9409186464192 /* libAppCenterReactNativeCrashes.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libAppCenterReactNativeCrashes.a; sourceTree = "<group>"; };
 		BBF1EE14EA9B4458937B6D0D /* libAppCenterReactNativeAnalytics.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libAppCenterReactNativeAnalytics.a; sourceTree = "<group>"; };
 		BC1E4759D292426EA94C6805 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
-		BFE3DBA5C7BB6CD2B52718B9 /* Pods-ThreeSegmentApp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThreeSegmentApp-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-ThreeSegmentApp-tvOS/Pods-ThreeSegmentApp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		BFE3DBA5C7BB6CD2B52718B9 /* Pods-Moneytored-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moneytored-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-Moneytored-tvOS/Pods-Moneytored-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		C278E95909DB474D80B81AFE /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
 		C5E85ADC08EC48D9B8604CF7 /* RNI18n.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNI18n.xcodeproj; path = "../node_modules/react-native-i18n/ios/RNI18n.xcodeproj"; sourceTree = "<group>"; };
 		C6484E3EF91A4E61BA74C6AC /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
-		CF9CFDEF51F87976EB08545D /* Pods-ThreeSegmentAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThreeSegmentAppTests.debug.xcconfig"; path = "Target Support Files/Pods-ThreeSegmentAppTests/Pods-ThreeSegmentAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CF9CFDEF51F87976EB08545D /* Pods-MoneytoredTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneytoredTests.debug.xcconfig"; path = "Target Support Files/Pods-MoneytoredTests/Pods-MoneytoredTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E0149CB6F26C4D46B33D7439 /* libReactNativeConfig.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libReactNativeConfig.a; sourceTree = "<group>"; };
-		E687748CBF0049258D77F10F /* Pods-ThreeSegmentApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThreeSegmentApp-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-ThreeSegmentApp-tvOSTests/Pods-ThreeSegmentApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		F080B80C6369B4F11147E807 /* Pods-ThreeSegmentAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThreeSegmentAppTests.release.xcconfig"; path = "Target Support Files/Pods-ThreeSegmentAppTests/Pods-ThreeSegmentAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		E687748CBF0049258D77F10F /* Pods-Moneytored-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moneytored-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-Moneytored-tvOSTests/Pods-Moneytored-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		F080B80C6369B4F11147E807 /* Pods-MoneytoredTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneytoredTests.release.xcconfig"; path = "Target Support Files/Pods-MoneytoredTests/Pods-MoneytoredTests.release.xcconfig"; sourceTree = "<group>"; };
 		FA1D6E0B08E042CF834ADFF2 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
 		FBFBA0BF9C3D48BC83A11317 /* RNDeviceInfo.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNDeviceInfo.xcodeproj; path = "../node_modules/react-native-device-info/ios/RNDeviceInfo.xcodeproj"; sourceTree = "<group>"; };
-		FDB07202436D42D7B2FAEF79 /* AppCenter-Config.plist */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.plist.xml; name = "AppCenter-Config.plist"; path = "ThreeSegmentApp/AppCenter-Config.plist"; sourceTree = "<group>"; };
+		FDB07202436D42D7B2FAEF79 /* AppCenter-Config.plist */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.plist.xml; name = "AppCenter-Config.plist"; path = "Moneytored/AppCenter-Config.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -510,7 +510,7 @@
 			files = (
 				ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */,
 				140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */,
-				36688ED0CDA0E9A1450DD51F /* libPods-ThreeSegmentAppTests.a in Frameworks */,
+				36688ED0CDA0E9A1450DD51F /* libPods-MoneytoredTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -539,7 +539,7 @@
 				BF60CE8E269E4C8E8C630F6A /* libAppCenterReactNativeCrashes.a in Frameworks */,
 				374C721D49F942A4B680CA4E /* libReactNativeConfig.a in Frameworks */,
 				512347C5C94248CD9893731B /* libRNDeviceInfo.a in Frameworks */,
-				0787469F04FAFE364DF5F805 /* libPods-ThreeSegmentApp.a in Frameworks */,
+				0787469F04FAFE364DF5F805 /* libPods-Moneytored.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -558,7 +558,7 @@
 				C279C5FCD402455694F939CE /* libRNVectorIcons-tvOS.a in Frameworks */,
 				B85399C2A1D24C0AAEADEAF3 /* libRNI18n-tvOS.a in Frameworks */,
 				286DCEF9A7844BA18950FDFD /* libRNDeviceInfo-tvOS.a in Frameworks */,
-				65D3F0C2259CC74AF81A3F61 /* libPods-ThreeSegmentApp-tvOS.a in Frameworks */,
+				65D3F0C2259CC74AF81A3F61 /* libPods-Moneytored-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -567,7 +567,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */,
-				CA4F68531BDAC24D81A7ED2A /* libPods-ThreeSegmentApp-tvOSTests.a in Frameworks */,
+				CA4F68531BDAC24D81A7ED2A /* libPods-Moneytored-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -616,13 +616,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		00E356EF1AD99517003FC87E /* ThreeSegmentAppTests */ = {
+		00E356EF1AD99517003FC87E /* MoneytoredTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* ThreeSegmentAppTests.m */,
+				00E356F21AD99517003FC87E /* MoneytoredTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = ThreeSegmentAppTests;
+			path = MoneytoredTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -653,7 +653,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* ThreeSegmentApp */ = {
+		13B07FAE1A68108700A75B9A /* Moneytored */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -664,7 +664,7 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = ThreeSegmentApp;
+			name = Moneytored;
 			sourceTree = "<group>";
 		};
 		146834001AC3E56700842450 /* Products */ = {
@@ -696,10 +696,10 @@
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
 				2D16E6891FA4F8E400B85C8A /* libReact.a */,
-				0D101F6894CD84B5C217A3BF /* libPods-ThreeSegmentApp.a */,
-				679573591073F8D9F8958358 /* libPods-ThreeSegmentApp-tvOS.a */,
-				15C8ECF6747F72A5C6C7DF35 /* libPods-ThreeSegmentApp-tvOSTests.a */,
-				372EF451FD14DF502DEDCDF6 /* libPods-ThreeSegmentAppTests.a */,
+				0D101F6894CD84B5C217A3BF /* libPods-Moneytored.a */,
+				679573591073F8D9F8958358 /* libPods-Moneytored-tvOS.a */,
+				15C8ECF6747F72A5C6C7DF35 /* libPods-Moneytored-tvOSTests.a */,
+				372EF451FD14DF502DEDCDF6 /* libPods-MoneytoredTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -707,14 +707,14 @@
 		2FC524E47330B9D97B737AA2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7E69AE7EC2CBEA9CD915145C /* Pods-ThreeSegmentApp.debug.xcconfig */,
-				5162E8DE7FBE6FFAEB234E83 /* Pods-ThreeSegmentApp.release.xcconfig */,
-				BFE3DBA5C7BB6CD2B52718B9 /* Pods-ThreeSegmentApp-tvOS.debug.xcconfig */,
-				6CFAD17422015283F8AC4C79 /* Pods-ThreeSegmentApp-tvOS.release.xcconfig */,
-				A0EAA22ADC2F2FD8B26C1D6F /* Pods-ThreeSegmentApp-tvOSTests.debug.xcconfig */,
-				E687748CBF0049258D77F10F /* Pods-ThreeSegmentApp-tvOSTests.release.xcconfig */,
-				CF9CFDEF51F87976EB08545D /* Pods-ThreeSegmentAppTests.debug.xcconfig */,
-				F080B80C6369B4F11147E807 /* Pods-ThreeSegmentAppTests.release.xcconfig */,
+				7E69AE7EC2CBEA9CD915145C /* Pods-Moneytored.debug.xcconfig */,
+				5162E8DE7FBE6FFAEB234E83 /* Pods-Moneytored.release.xcconfig */,
+				BFE3DBA5C7BB6CD2B52718B9 /* Pods-Moneytored-tvOS.debug.xcconfig */,
+				6CFAD17422015283F8AC4C79 /* Pods-Moneytored-tvOS.release.xcconfig */,
+				A0EAA22ADC2F2FD8B26C1D6F /* Pods-Moneytored-tvOSTests.debug.xcconfig */,
+				E687748CBF0049258D77F10F /* Pods-Moneytored-tvOSTests.release.xcconfig */,
+				CF9CFDEF51F87976EB08545D /* Pods-MoneytoredTests.debug.xcconfig */,
+				F080B80C6369B4F11147E807 /* Pods-MoneytoredTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -776,9 +776,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* ThreeSegmentApp */,
+				13B07FAE1A68108700A75B9A /* Moneytored */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* ThreeSegmentAppTests */,
+				00E356EF1AD99517003FC87E /* MoneytoredTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				8A6DD850654A458FBB459A35 /* Resources */,
@@ -794,10 +794,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* ThreeSegmentApp.app */,
-				00E356EE1AD99517003FC87E /* ThreeSegmentAppTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* ThreeSegmentApp-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* ThreeSegmentApp-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* Moneytored.app */,
+				00E356EE1AD99517003FC87E /* MoneytoredTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* Moneytored-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* Moneytored-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -921,9 +921,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* ThreeSegmentAppTests */ = {
+		00E356ED1AD99517003FC87E /* MoneytoredTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ThreeSegmentAppTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MoneytoredTests" */;
 			buildPhases = (
 				AF3EABFB1B6651451316A5A0 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -935,14 +935,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = ThreeSegmentAppTests;
-			productName = ThreeSegmentAppTests;
-			productReference = 00E356EE1AD99517003FC87E /* ThreeSegmentAppTests.xctest */;
+			name = MoneytoredTests;
+			productName = MoneytoredTests;
+			productReference = 00E356EE1AD99517003FC87E /* MoneytoredTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* ThreeSegmentApp */ = {
+		13B07F861A680F5B00A75B9A /* Moneytored */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ThreeSegmentApp" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Moneytored" */;
 			buildPhases = (
 				C73890ACBE866A2E43957385 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
@@ -954,14 +954,14 @@
 			);
 			dependencies = (
 			);
-			name = ThreeSegmentApp;
+			name = Moneytored;
 			productName = "Hello World";
-			productReference = 13B07F961A680F5B00A75B9A /* ThreeSegmentApp.app */;
+			productReference = 13B07F961A680F5B00A75B9A /* Moneytored.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* ThreeSegmentApp-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* Moneytored-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ThreeSegmentApp-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Moneytored-tvOS" */;
 			buildPhases = (
 				A237D335390151E2E2C987DD /* [CP] Check Pods Manifest.lock */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
@@ -973,14 +973,14 @@
 			);
 			dependencies = (
 			);
-			name = "ThreeSegmentApp-tvOS";
-			productName = "ThreeSegmentApp-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* ThreeSegmentApp-tvOS.app */;
+			name = "Moneytored-tvOS";
+			productName = "Moneytored-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* Moneytored-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* ThreeSegmentApp-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* Moneytored-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ThreeSegmentApp-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Moneytored-tvOSTests" */;
 			buildPhases = (
 				62ADDB24E09F4B1D26239273 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -992,9 +992,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "ThreeSegmentApp-tvOSTests";
-			productName = "ThreeSegmentApp-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* ThreeSegmentApp-tvOSTests.xctest */;
+			name = "Moneytored-tvOSTests";
+			productName = "Moneytored-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* Moneytored-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -1021,7 +1021,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ThreeSegmentApp" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Moneytored" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -1117,10 +1117,10 @@
 			);
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* ThreeSegmentApp */,
-				00E356ED1AD99517003FC87E /* ThreeSegmentAppTests */,
-				2D02E47A1E0B4A5D006451C7 /* ThreeSegmentApp-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* ThreeSegmentApp-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* Moneytored */,
+				00E356ED1AD99517003FC87E /* MoneytoredTests */,
+				2D02E47A1E0B4A5D006451C7 /* Moneytored-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* Moneytored-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -1558,7 +1558,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ThreeSegmentApp-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Moneytored-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1580,7 +1580,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ThreeSegmentApp-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Moneytored-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1602,7 +1602,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ThreeSegmentAppTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MoneytoredTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1624,7 +1624,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ThreeSegmentApp-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Moneytored-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1638,7 +1638,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* ThreeSegmentAppTests.m in Sources */,
+				00E356F31AD99517003FC87E /* MoneytoredTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1664,7 +1664,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* ThreeSegmentAppTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* MoneytoredTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1673,12 +1673,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* ThreeSegmentApp */;
+			target = 13B07F861A680F5B00A75B9A /* Moneytored */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* ThreeSegmentApp-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* Moneytored-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1690,7 +1690,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = ThreeSegmentApp;
+			path = Moneytored;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -1698,7 +1698,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CF9CFDEF51F87976EB08545D /* Pods-ThreeSegmentAppTests.debug.xcconfig */;
+			baseConfigurationReference = CF9CFDEF51F87976EB08545D /* Pods-MoneytoredTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1716,7 +1716,7 @@
 					"$(SRCROOT)/../node_modules/react-native-config/ios/ReactNativeConfig",
 					"$(SRCROOT)/../node_modules/react-native-device-info/ios/RNDeviceInfo",
 				);
-				INFOPLIST_FILE = ThreeSegmentAppTests/Info.plist;
+				INFOPLIST_FILE = MoneytoredTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -1739,13 +1739,13 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThreeSegmentApp.app/ThreeSegmentApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moneytored.app/Moneytored";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F080B80C6369B4F11147E807 /* Pods-ThreeSegmentAppTests.release.xcconfig */;
+			baseConfigurationReference = F080B80C6369B4F11147E807 /* Pods-MoneytoredTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -1760,7 +1760,7 @@
 					"$(SRCROOT)/../node_modules/react-native-config/ios/ReactNativeConfig",
 					"$(SRCROOT)/../node_modules/react-native-device-info/ios/RNDeviceInfo",
 				);
-				INFOPLIST_FILE = ThreeSegmentAppTests/Info.plist;
+				INFOPLIST_FILE = MoneytoredTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -1783,13 +1783,13 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThreeSegmentApp.app/ThreeSegmentApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moneytored.app/Moneytored";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E69AE7EC2CBEA9CD915145C /* Pods-ThreeSegmentApp.debug.xcconfig */;
+			baseConfigurationReference = 7E69AE7EC2CBEA9CD915145C /* Pods-Moneytored.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1805,7 +1805,7 @@
 					"$(SRCROOT)/../node_modules/react-native-config/ios/ReactNativeConfig",
 					"$(SRCROOT)/../node_modules/react-native-device-info/ios/RNDeviceInfo",
 				);
-				INFOPLIST_FILE = ThreeSegmentApp/Info.plist;
+				INFOPLIST_FILE = Moneytored/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -1813,14 +1813,14 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = ThreeSegmentApp;
+				PRODUCT_NAME = Moneytored;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5162E8DE7FBE6FFAEB234E83 /* Pods-ThreeSegmentApp.release.xcconfig */;
+			baseConfigurationReference = 5162E8DE7FBE6FFAEB234E83 /* Pods-Moneytored.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1835,7 +1835,7 @@
 					"$(SRCROOT)/../node_modules/react-native-config/ios/ReactNativeConfig",
 					"$(SRCROOT)/../node_modules/react-native-device-info/ios/RNDeviceInfo",
 				);
-				INFOPLIST_FILE = ThreeSegmentApp/Info.plist;
+				INFOPLIST_FILE = Moneytored/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -1843,14 +1843,14 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = ThreeSegmentApp;
+				PRODUCT_NAME = Moneytored;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BFE3DBA5C7BB6CD2B52718B9 /* Pods-ThreeSegmentApp-tvOS.debug.xcconfig */;
+			baseConfigurationReference = BFE3DBA5C7BB6CD2B52718B9 /* Pods-Moneytored-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1872,7 +1872,7 @@
 					"$(SRCROOT)/../node_modules/react-native-config/ios/ReactNativeConfig",
 					"$(SRCROOT)/../node_modules/react-native-device-info/ios/RNDeviceInfo",
 				);
-				INFOPLIST_FILE = "ThreeSegmentApp-tvOS/Info.plist";
+				INFOPLIST_FILE = "Moneytored-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1892,7 +1892,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.ThreeSegmentApp-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Moneytored-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -1902,7 +1902,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6CFAD17422015283F8AC4C79 /* Pods-ThreeSegmentApp-tvOS.release.xcconfig */;
+			baseConfigurationReference = 6CFAD17422015283F8AC4C79 /* Pods-Moneytored-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1924,7 +1924,7 @@
 					"$(SRCROOT)/../node_modules/react-native-config/ios/ReactNativeConfig",
 					"$(SRCROOT)/../node_modules/react-native-device-info/ios/RNDeviceInfo",
 				);
-				INFOPLIST_FILE = "ThreeSegmentApp-tvOS/Info.plist";
+				INFOPLIST_FILE = "Moneytored-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1944,7 +1944,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.ThreeSegmentApp-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Moneytored-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -1954,7 +1954,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A0EAA22ADC2F2FD8B26C1D6F /* Pods-ThreeSegmentApp-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = A0EAA22ADC2F2FD8B26C1D6F /* Pods-Moneytored-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1975,7 +1975,7 @@
 					"$(SRCROOT)/../node_modules/react-native-config/ios/ReactNativeConfig",
 					"$(SRCROOT)/../node_modules/react-native-device-info/ios/RNDeviceInfo",
 				);
-				INFOPLIST_FILE = "ThreeSegmentApp-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "Moneytored-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1995,17 +1995,17 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.ThreeSegmentApp-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Moneytored-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThreeSegmentApp-tvOS.app/ThreeSegmentApp-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moneytored-tvOS.app/Moneytored-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E687748CBF0049258D77F10F /* Pods-ThreeSegmentApp-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = E687748CBF0049258D77F10F /* Pods-Moneytored-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -2026,7 +2026,7 @@
 					"$(SRCROOT)/../node_modules/react-native-config/ios/ReactNativeConfig",
 					"$(SRCROOT)/../node_modules/react-native-device-info/ios/RNDeviceInfo",
 				);
-				INFOPLIST_FILE = "ThreeSegmentApp-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "Moneytored-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2046,10 +2046,10 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.ThreeSegmentApp-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Moneytored-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThreeSegmentApp-tvOS.app/ThreeSegmentApp-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moneytored-tvOS.app/Moneytored-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -2156,7 +2156,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ThreeSegmentAppTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MoneytoredTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -2165,7 +2165,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ThreeSegmentApp" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Moneytored" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -2174,7 +2174,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ThreeSegmentApp-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Moneytored-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -2183,7 +2183,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ThreeSegmentApp-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Moneytored-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -2192,7 +2192,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ThreeSegmentApp" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Moneytored" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

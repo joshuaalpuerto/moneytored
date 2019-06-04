@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "ThreeSegmentApp-tvOS.app"
-               BlueprintName = "ThreeSegmentApp-tvOS"
-               ReferencedContainer = "container:ThreeSegmentApp.xcodeproj">
+               BuildableName = "Moneytored-tvOS.app"
+               BlueprintName = "Moneytored-tvOS"
+               ReferencedContainer = "container:Moneytored.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "ThreeSegmentApp-tvOSTests.xctest"
-               BlueprintName = "ThreeSegmentApp-tvOSTests"
-               ReferencedContainer = "container:ThreeSegmentApp.xcodeproj">
+               BuildableName = "Moneytored-tvOSTests.xctest"
+               BlueprintName = "Moneytored-tvOSTests"
+               ReferencedContainer = "container:Moneytored.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -61,9 +61,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "ThreeSegmentApp-tvOSTests.xctest"
-               BlueprintName = "ThreeSegmentApp-tvOSTests"
-               ReferencedContainer = "container:ThreeSegmentApp.xcodeproj">
+               BuildableName = "Moneytored-tvOSTests.xctest"
+               BlueprintName = "Moneytored-tvOSTests"
+               ReferencedContainer = "container:Moneytored.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -71,9 +71,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "ThreeSegmentApp-tvOS.app"
-            BlueprintName = "ThreeSegmentApp-tvOS"
-            ReferencedContainer = "container:ThreeSegmentApp.xcodeproj">
+            BuildableName = "Moneytored-tvOS.app"
+            BlueprintName = "Moneytored-tvOS"
+            ReferencedContainer = "container:Moneytored.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "ThreeSegmentApp-tvOS.app"
-            BlueprintName = "ThreeSegmentApp-tvOS"
-            ReferencedContainer = "container:ThreeSegmentApp.xcodeproj">
+            BuildableName = "Moneytored-tvOS.app"
+            BlueprintName = "Moneytored-tvOS"
+            ReferencedContainer = "container:Moneytored.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -113,9 +113,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "ThreeSegmentApp-tvOS.app"
-            BlueprintName = "ThreeSegmentApp-tvOS"
-            ReferencedContainer = "container:ThreeSegmentApp.xcodeproj">
+            BuildableName = "Moneytored-tvOS.app"
+            BlueprintName = "Moneytored-tvOS"
+            ReferencedContainer = "container:Moneytored.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

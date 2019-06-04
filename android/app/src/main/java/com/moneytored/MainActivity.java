@@ -1,4 +1,4 @@
-package com.threesegmentapp;
+package com.moneytored;
 
 import com.facebook.react.ReactActivity;
 
@@ -24,6 +24,6 @@ public class MainActivity extends ReactActivity {
      */
     @Override
     protected String getMainComponentName() {
-        return "ThreeSegmentApp";
+        return "Moneytored";
     }
 }

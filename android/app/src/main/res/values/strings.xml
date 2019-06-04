@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ThreeSegmentApp</string>
+    <string name="app_name">Moneytored</string>
     <string name="appCenterAnalytics_whenToEnableAnalytics" moduleConfig="true" translatable="false">ENABLE_IN_JS</string>
     <string name="appCenterCrashes_whenToSendCrashes" moduleConfig="true" translatable="false">ALWAYS_SEND</string>
 </resources>

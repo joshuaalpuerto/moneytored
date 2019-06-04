@@ -1,4 +1,4 @@
-package com.threesegmentapp;
+package com.moneytored;
 
 import android.app.Application;
 

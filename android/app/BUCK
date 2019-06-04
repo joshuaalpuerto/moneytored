@@ -36,12 +36,12 @@ android_library(
 
 android_build_config(
     name = "build_config",
-    package = "com.threesegmentapp",
+    package = "com.moneytored",
 )
 
 android_resource(
     name = "res",
-    package = "com.threesegmentapp",
+    package = "com.moneytored",
     res = "src/main/res",
 )
 

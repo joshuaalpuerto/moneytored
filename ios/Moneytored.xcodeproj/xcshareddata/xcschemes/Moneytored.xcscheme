@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "ThreeSegmentApp.app"
-               BlueprintName = "ThreeSegmentApp"
-               ReferencedContainer = "container:ThreeSegmentApp.xcodeproj">
+               BuildableName = "Moneytored.app"
+               BlueprintName = "Moneytored"
+               ReferencedContainer = "container:Moneytored.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "ThreeSegmentAppTests.xctest"
-               BlueprintName = "ThreeSegmentAppTests"
-               ReferencedContainer = "container:ThreeSegmentApp.xcodeproj">
+               BuildableName = "MoneytoredTests.xctest"
+               BlueprintName = "MoneytoredTests"
+               ReferencedContainer = "container:Moneytored.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -61,9 +61,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "ThreeSegmentAppTests.xctest"
-               BlueprintName = "ThreeSegmentAppTests"
-               ReferencedContainer = "container:ThreeSegmentApp.xcodeproj">
+               BuildableName = "MoneytoredTests.xctest"
+               BlueprintName = "MoneytoredTests"
+               ReferencedContainer = "container:Moneytored.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -71,9 +71,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "ThreeSegmentApp.app"
-            BlueprintName = "ThreeSegmentApp"
-            ReferencedContainer = "container:ThreeSegmentApp.xcodeproj">
+            BuildableName = "Moneytored.app"
+            BlueprintName = "Moneytored"
+            ReferencedContainer = "container:Moneytored.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "ThreeSegmentApp.app"
-            BlueprintName = "ThreeSegmentApp"
-            ReferencedContainer = "container:ThreeSegmentApp.xcodeproj">
+            BuildableName = "Moneytored.app"
+            BlueprintName = "Moneytored"
+            ReferencedContainer = "container:Moneytored.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -113,9 +113,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "ThreeSegmentApp.app"
-            BlueprintName = "ThreeSegmentApp"
-            ReferencedContainer = "container:ThreeSegmentApp.xcodeproj">
+            BuildableName = "Moneytored.app"
+            BlueprintName = "Moneytored"
+            ReferencedContainer = "container:Moneytored.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
