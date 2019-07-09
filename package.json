@@ -74,7 +74,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",
-    "@babel/runtime": "^7.4.3",
+    "@babel/runtime": "^7.5.1",
     "@storybook/addon-storyshots": "^3.4.0",
     "@storybook/addons": "^3.4.0",
     "@storybook/channels": "^3.4.0",
