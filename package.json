@@ -52,7 +52,7 @@
     "identity-obj-proxy": "^3.0.0",
     "lodash": "^4.17.11",
     "prop-types": "^15.6.1",
-    "querystringify": "1.0.0",
+    "querystringify": "2.2.0",
     "ramda": "0.26.1",
     "react": "16.8.3",
     "react-native": "0.59.5",
